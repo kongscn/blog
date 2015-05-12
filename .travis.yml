@@ -1,0 +1,38 @@
+language: node_js
+
+node_js:
+  - "0.12"
+
+before_install:
+  # Decrypt the private key
+  # Copy SSH config
+  - cp .travis/ssh_config ~/.ssh/config
+  - openssl aes-256-cbc -K $encrypted_8dc9298da1ee_key -iv $encrypted_8dc9298da1ee_iv -in .travis/id_rsa.enc -out ~/.ssh/id_rsa -d
+  # Set the permission of the key
+  - chmod 600 ~/.ssh/id_rsa
+  # Start SSH agent
+  - eval $(ssh-agent)
+  # Add the private key to the system
+  - ssh-add ~/.ssh/id_rsa
+  # Set Git config
+  - git config --global user.name "Shel Kong"
+  - git config --global user.email kongscn@gmail.com
+  - git config --global push.default simple
+
+install:
+  # Install Hexo
+  - npm install hexo-cli -g
+  # Install graphicsmagick
+  - sudo apt-get install graphicsmagick
+  # Install dependencies
+  - npm install --no-optional
+  - npm install hexo-deployer-git --save
+  - npm install hexo-generator-feed --save
+
+script:
+  # - hexo generate
+  - hexo generate --deploy
+
+branches:
+  only:
+    - master
