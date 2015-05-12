@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Power Up Algorithmic Trading with Predictiving Modeling -- A Demo"
+title:  "Power Up Algorithmic Trading with Predictive Modeling -- A Demo"
 date:   2014-11-24
 categories:
   - quant
