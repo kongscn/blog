@@ -2,6 +2,7 @@
 layout: post
 title:  "Speedup Python with Cython, compared with Python C API and Julia and Dlang"
 date:   2014-11-10 17:41:09
+colorful: true
 categories:
   - coding
 tags: 
@@ -9,8 +10,6 @@ tags:
   - performance 
   - cython
 ---
-Cython Example
-==============
 
 Recently I read a wonderful series of [posts](https://www.crumpington.com/blog/2014/10-19-high-performance-python-extensions-part-1.html) about using Python C API to speedup python scripts. But I'm not a C fun and I used [Cython](http://cython.org/) to ease the work. So I wonder how much could I get using Cython instead of Python C API?
 
