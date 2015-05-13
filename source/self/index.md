@@ -15,6 +15,7 @@ In case you miss the links in Q&As.
 - [TA+AI](http://blog.kongscn.me/2014/11/23/algorithmic-trading-machine-learning.html): A demo that combines technical analysis with machine learning in trading algorithms.
 - [Python Performance](http://blog.kongscn.me/2014/11/10/cython-performance.html): Python, Cython, Dlang, Julia and C performance comparison of a particular physics problem.
 - [npmcim2014](https://github.com/kongscn/npmcim2014): A winning matlab solution of Problem 5 of National Postgrate Mathematic Contest in Modeling(You may have received the pdf paper along with my resume).
+- [AQI map](http://aqi.kongscn.me): Air quality index visualization and statistics.
 - Time Series Analysis Using Python -- A Demo: working on it.
 - Statistical Arbitrage: Working paper.
 
