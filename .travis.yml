@@ -26,8 +26,6 @@ install:
   - sudo apt-get install graphicsmagick
   # Install dependencies
   - npm install --no-optional
-  - npm install hexo-deployer-git --save
-  - npm install hexo-generator-feed --save
 
 script:
   # - hexo generate
