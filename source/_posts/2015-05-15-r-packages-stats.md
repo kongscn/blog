@@ -9,6 +9,8 @@ tags:
 
 I'm switching to R recently, and one of the challenges is to get the right package from the mass world. Rstudio provides CRAN download logs from 2012-10-01, which contain all hits to <http://cran.rstudio.com/> related to packages.
 
+<!-- more -->
+
 Well, precisely we are going to find the popularity of packages among users who downloads from cran.rstudio.com, but I'll not emphasize this later on.
 
 The stats are calculated using logs from 2015-01-01 to 2015-05-14.
