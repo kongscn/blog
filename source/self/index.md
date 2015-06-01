@@ -5,11 +5,11 @@ colorful: true
 
 {% alert info %}This page is used as a short self-introduction for internship applications, may be removed in the future. There is no link to this page on this site.{% endalert %}
 
-It's hart to predict what everyone is expecting for, so I'll just list some Q&As here. It's a little colloquial but also quite interesting, when Qs really want an A.
+<!-- It's hart to predict what everyone is expecting for, so I'll just list some Q&As here. It's a little colloquial but also quite interesting, when Qs really want an A. -->
 
 # Projects/Demos list
 
-In case you miss the links in Q&As.
+<!-- In case you miss the links in Q&As. -->
 
 - [Project Euler repo](https://github.com/kongscn/euler): Algorithm exercises.
 - [TA+AI](http://blog.kongscn.me/2014/11/23/algorithmic-trading-machine-learning.html): A demo that combines technical analysis with machine learning in trading algorithms.
@@ -20,6 +20,8 @@ In case you miss the links in Q&As.
 - Time Series Analysis Using Python -- A Demo: working on it.
 - Statistical Arbitrage: Working paper.
 
+
+<!-- 
 
 # Q&As
 
@@ -40,4 +42,4 @@ In case you miss the links in Q&As.
 **A**: Questions like this one are not suprising, I read some pages of books about quantative interviews last year(late 2014), the questions are indeed interesting. I admit that brains usually need some practice to be good at questions like filling blanks of a number array, or how to get out of a can if you are as small as an insect, but the problem is there are **more** interesting things around. Personally I'm interested about many things, including psychology, traditional literature, programming languages etc., in short I am willing to touch logics/ideas, and I prefer to feel/understand/index them than to rember them. I get used to learn and accept things quickly, not remembering them. This might not be the better way, or even the right way, but it's more difficult to keep blind to the wild world and only follow the rules made by ABC.
 
 ---
-
+ -->
